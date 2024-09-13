@@ -1,10 +1,12 @@
 /* Write your CSS code here */
 .blog-item-link {
+  width: 98%;
   text-decoration: none;
   color: black;
   border: 1px solid lightgray;
   border-radius: 5px;
   margin: 15px;
+  padding: 5px;
 }
 .blogItemContainer {
   display: flex;
@@ -16,6 +18,8 @@
   margin: 5px;
   border: 1px solid transparent;
   height: 170px;
+  display: flex;
+  align-self: center;
 }
 .item-info {
   display: flex;
@@ -50,6 +54,7 @@
 }
 @media screen and (min-width: 575px) {
   .blogItemContainer {
+    width: 100%;
     flex-direction: row;
   }
   .item-image {
